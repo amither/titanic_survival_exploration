@@ -13228,7 +13228,7 @@ mcglSaoxE7kkSTX2/wHt6hqu5rG0pQAAAABJRU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>问题4</strong>：请描述你实现80%准确度的预测模型所经历的步骤。您观察过哪些特征？某些特性是否比其他特征更有帮助？你用了什么条件来预测生还结果？你最终的预测的准确率是多少？</p>
-<p><strong>回答</strong>：<em>Predictions have an accuracy of 80.02%.</em></p>
+<p><strong>回答</strong>：predictions_2已经接近80%的准确度，要想达到80%，只需再predictions_2的基础上再提高下准确率。首先，我观察了10岁一下男性的Pclass特性，未见到太明显的区分。于是我将年龄提高到18岁，并且观察SibSp， 发现SibSp==1时有极大可能生还，于是加上这个条件，顺利达到80.02%的准确率</p>
 <p><strong>提示</strong>：你需要在下面添加一个代码区域，实现代码并运行来计算准确率。</p>
 
 </div>
